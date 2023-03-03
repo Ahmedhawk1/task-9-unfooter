@@ -5,23 +5,26 @@
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
-nav {
+.navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px 100px 0px;
-  width: 50%;
-  padding-right: 30px;
+  padding: 30px 100px 0px;
+  width: 55%;
+  
 }
 
 nav img {
-  width: 130px;
+  width: 135px;
+
 }
 
 nav a {
   color: #333;
   text-decoration: none;
   font-size: 18px;
+  margin-left: 10px;
+  
 }
 
 nav a:hover {
@@ -171,15 +174,16 @@ nav a:hover {
 }
 
 .alldiv h3 {
-  color: #000206;
-  font-size: 40px;
-  font-weight: 400;
+  color:   #999;
+  font-size: 30px;
+  /* font-weight: 400; */
 }
 
 .sec-two .alldiv p {
-  color: #4e4f53;
+  color: #969aa5;
   font-size: 20px;
   text-align: center;
+  line-height: 35px;
 }
 
 .why-choose {
@@ -202,7 +206,7 @@ nav a:hover {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 100px;
+  margin-top: 200px;
 }
 
 p,
@@ -229,6 +233,7 @@ h2 {
 .sec-3 h3 {
   width: fit-content;
   text-align: center;
+  color:#637279;
 }
 
 .sec-3 p {
@@ -238,8 +243,111 @@ h2 {
 }
 
 /************ footer******* */
+footer{
+  position: relative;
+  height: 80vh;
+  overflow: hidden;
 
-footer {
-  background: url(/back25.png) no-repeat;
-  background-size: 100%;
+}
+
+  .footer-background{
+    position: absolute;
+    width: 110%;
+    height: 150%;
+    left: -3%;
+    top::20px
+
+}
+
+
+.divall3{
+ 
+  padding-left: 50px;
+  width: 50%;
+}
+
+.logoall{
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  width: 350px;
+  bottom:90px;
+  
+}
+
+
+
+  .logo3{
+    display: flex;
+    justify-content: space-between;
+    width: 150px;
+    text-align: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 20px;
+    padding:10px;
+    margin-bottom: 50px;
+    opacity: 90%;
+    color: #2c2828;
+  }
+
+  .icon-3{
+    position: absolute;
+    display: flex;
+    width: 35px;
+    height: 30px;
+    bottom:90px;
+    
+
+  }
+  .icon-3 i{
+    color: rgb(255, 255, 255);
+    padding: 10px ;
+    font-size: 30px;
+    margin-bottom: 40px;
+    
+    
+  }
+
+footer{
+  position: relative;
+}
+
+  .women{
+    position: absolute;
+    display: flex;
+    
+    width:650px ;
+    right: 120px;
+    top: 150px;
+    z-index: 200;
+  }
+
+
+
+
+
+  .link-footer{
+    position: absolute;
+    display: flex;
+    z-index: 600;
+    padding-top: 75px;
+   
+  }
+
+
+.link-footer ul{
+  list-style-type: none;
+  display: flex;
+
+}
+
+.link-footer a{
+  text-decoration: none;
+  display: flex;
+  margin-right: 10px;
+  width: 110px;
+  color: white;
+ 
+
 }
